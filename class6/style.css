@@ -1,0 +1,21 @@
+.main{
+    border: 1px solid;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(30, 124, 232);
+    margin: auto;
+    margin-top: 15rem;
+    box-shadow: 10px 8px 30px rgb(30, 124, 224);
+}
+.main:hover{
+    /* border-radius: 50%; */
+    background-color: rgb(195, 144, 203);
+    box-shadow:10px 8px 30px rgb(188, 36, 214);
+    transition-duration: 1s;
+    /* transition-timing-function: steps(5,end); */
+    /* transform: rotate(45deg);  */
+    /* scale: 1.2; */
+    /* transform: translateX(); */
+    /* transform: skew(-45deg); */
+
+}

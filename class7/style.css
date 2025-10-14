@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 400vh;
+    width: 50vw;
+    margin: auto;
+    border: 2px solid black;
+    padding: 20px;
+    padding-left: 40px;
+
+}
+img{
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    box-shadow:10px 8px 30px rgb(0, 0, 0);
+    
+}
+.image-2{
+    /* position: relative; change the posistion  */
+    /* position: absolute; come on top */
+    /* top: 200px; */
+}
+.image-5{
+width: 100px;
+border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+
+}
+img:hover{
+    box-shadow:10px 8px 30px rgb(188, 36, 214);
+    scale: 1.1;
+    transition: ease-in-out 0.5s;
+}
