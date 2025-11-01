@@ -5,13 +5,13 @@
 // compare two numbers and print their relationship
 
 // 1
-// let num = prompt("enter a number ");
+let num = prompt("enter a number ");
 
-// if (num % 2 == 0) {
-//   alert(`${num} number is even number`);
-// } else {
-//   alert(`${num} number is odd`);
-// }
+if (num % 2 == 0) {
+  alert(`${num} number is even number`);
+} else {
+  alert(`${num} number is odd`);
+}
 
 //2
 // let num1 = 10;
@@ -42,37 +42,37 @@
 
 //4
 
-// let a=10;
-// let b=20;
+// let a = 10;
+// let b = 20;
 // let temp;
 
-// temp=a;
-// a=b;
-// b=temp
+// temp = a;
+// a = b;
+// b = temp;
 
-// let n = 5;
-// let fact = 1;
+let n = 5;
+let fact = 1;
 
-// for (let i = 1; i <= n; i++) {
-//   fact = fact * i;
-// }
-// console.log(fact);
+for (let i = 1; i <= n; i++) {
+  fact = fact * i;
+}
+console.log(fact);
 
 //armstrong number
 
-// let num = 153;
-// let temp = num;
-// let sum = 0;
+let num = 153;
+let temp = num;
+let sum = 0;
 
-// while (temp > 0) {
-//   let rem = temp % 10;
-//   sum = sum + (rem ** 3);
-//   temp = Math.floor(temp / 10);
-// }
+while (temp > 0) {
+  let rem = temp % 10;
+  sum = sum + (rem ** 3);
+  temp = Math.floor(temp / 10);
+}
 
-// if(num==sum){
-//   console.log("armstrong number ")
-// }
+if(num==sum){
+  console.log("armstrong number ")
+}
 
 // fibonacci series
 // num = 10;
@@ -87,21 +87,51 @@
 //   b = sum;
 // }
 
+// palindrome
 
-// palindrome 
-
-let n= 1221;
-let temp=n;
+let num= 1221;
+let temp=num;
 let revNum=0
 
-while(n>0){
+while(num>0){
   let lastDigit = n%10;
   revNum = (revNum * 10) + lastDigit;
-  n=Math.floor(n/10)
+  num=Math.floor(num/10)
 }
 
 if(revNum==temp){
   console.log("palindrome number ")
 }else{
   console.log("not a plaindrome")
+}
+
+// sum of factorial
+
+// let n = 6;
+// let sum = 1;
+
+// for (let i = n; i >= 1; i--) {
+//   sum = sum * i;
+// }
+// console.log(sum);
+
+// 5 subject marks
+
+let num1 = 80;
+let num2 = 70;
+let num3 = 90;
+let num4 = 50;
+let num5 = 100;
+
+let percent = ((num1 + num2 + num3 + num4 + num5) / 500) * 100;
+percent = 60;
+
+if (percent <= 90 && percent >= 100) {
+  console.log("A");
+} else if (percent <= 80 && percent > 90) {
+  console.log("B");
+} else if (percent <= 70 && percent > 80) {
+  console.log("C");
+} else if (percent <= 60) {
+  console.log("fail");
 }
