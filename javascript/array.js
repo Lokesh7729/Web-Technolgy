@@ -1,4 +1,7 @@
-let a = [1,2,3,4]
-let b= [5,6,7,8]
+// let a = [1,2,3,4]
+// let b= [5,6,7,8]
 
-console.log(a.slice(1,3))
+// console.log(a.slice(1,3))
+
+company = ["bloomberg", "microsoft", "uber", "google", "IBM", "Netfix"];
+
